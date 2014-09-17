@@ -1,3 +1,6 @@
+# Assumes working directory is the directory of this script
+source('cachematrix.R')
+
 input.matrix <- matrix(sample(0:9, 9, replace = TRUE), 3, 3)
 cm <- makeCacheMatrix(input.matrix)
 print("Input matrix:")
